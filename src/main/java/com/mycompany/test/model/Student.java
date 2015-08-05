@@ -21,7 +21,7 @@ import javax.persistence.Table;
 @Table(name = "STUDENT")
 public class Student implements Serializable{
     @Id
-    @GeneratedValue(generator = "STUDENT",strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
     private String userName;
     private String passWord;
